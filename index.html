@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<header>
+    <script src="script.js"></script>
+</header>
+<body onload="getElements()">
+    <p> Energy Price Calculator</p>
+    <Span><p>Usage Rate 1 Night</p><input type="text" id="usage1_night"></Span>
+    <Span><p>Usage Rate 2 Day</p><input type="text" id="usage2_day"></Span>
+    <Span><p>Number of Days in Billing Period</p><input type="text" id="days"></Span>
+    <Span></Span>
+    <Span><p>Rate 1 Night Tariff</p><input type="text" id="tariff1_night"></Span>
+    <Span><p>Rate 2 Day Tariff</p><input type="text" id="tariff2_day"></Span>
+    <Span><p>Standing Charge Per Day</p><input type="text" id="sc"></Span>
+    <Span></Span>
+    <Span><button id="calculate" onclick="program()">Calculate Results</button></Span>
+    <span><P id="result"></P></span>
+</body>
+<footer></footer>
